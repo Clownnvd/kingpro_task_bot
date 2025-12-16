@@ -1,0 +1,56 @@
+{
+  
+  "name": "task-telegram-sheet-bot",
+  
+  "type": "module",
+  
+   "scripts": {
+    "commands": "node --max-old-space-size=4096 --loader ts-node/esm src/commands.ts",
+    "remind": "node --max-old-space-size=4096 --loader ts-node/esm src/remind.ts",
+    "digest": "node --max-old-space-size=4096 --loader ts-node/esm src/digest.ts"
+  },
+  
+  "version": "1.0.0",
+  
+  "main": "index.js",
+  
+  "keywords": [],
+  
+  "author": "",
+  
+  "license": "ISC",
+  
+  "description": "",
+  
+  "dependencies": {
+  
+    
+  "axios": "^1.13.2",
+  
+    
+  "dayjs": "^1.11.19",
+  
+    
+  "dotenv": "^17.2.3",
+  
+    
+  "googleapis": "^169.0.0",
+  
+    
+  "zod": "^4.2.1"
+  
+  },
+  
+  "devDependencies": {
+  
+    
+  "@types/node": "^25.0.2",
+  
+    
+  "ts-node": "^10.9.2",
+  
+    
+  "typescript": "^5.9.3"
+  
+  }
+}
