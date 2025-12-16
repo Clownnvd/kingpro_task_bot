@@ -1,4 +1,5 @@
 .env
 flawless-helper-481415-u0-e7236d7e0e48.json
-*.json
 node_modules
+*.json
+!package-lock.json
